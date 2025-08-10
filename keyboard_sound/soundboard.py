@@ -18,6 +18,7 @@ key_to_sound = {
     # Add more as needed
 }
 
+
 def play_sound(filename):
     path = os.path.join(SOUNDS_DIR, filename)
     if os.path.exists(path):

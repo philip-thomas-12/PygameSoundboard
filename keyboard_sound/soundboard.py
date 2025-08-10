@@ -1,7 +1,6 @@
 import pygame
 import os
 
-
 pygame.init()
 pygame.mixer.init()
 screen = pygame.display.set_mode((400, 100))

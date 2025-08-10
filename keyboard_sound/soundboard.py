@@ -15,7 +15,7 @@ key_to_sound = {
     pygame.K_f: "f.mp3",
     pygame.K_COMMA: "comma.wav",
     pygame.K_SPACE: "space.wav",
-    # Add more as needed
+ 
 }
 
 

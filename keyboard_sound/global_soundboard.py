@@ -48,6 +48,7 @@ def play_sound_for_key(key_char):
         else:
             print(f"Sound file not found: {filename}")
 
+
 def on_press(key):
     try:
         if hasattr(key, 'char') and key.char is not None:

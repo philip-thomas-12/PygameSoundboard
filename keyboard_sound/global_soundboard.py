@@ -5,6 +5,7 @@ import os
 pygame.mixer.init()
 
 SOUNDS_DIR = "sounds"
+
 key_map = {
     'a': "a.mp3",
     'b': "b.mp3",
@@ -34,7 +35,7 @@ key_map = {
     'z': "z.mp3",
     ',': "comma.wav",
     ' ': "space.wav",
-    # Add more keys and sounds here
+    
 }
 
 def play_sound_for_key(key_char):
